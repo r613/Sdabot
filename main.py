@@ -1,7 +1,9 @@
-#v1.1
+#v1.2
+from create import create 
 from stf import finish 
 from stf import checker
 from stf import patt
+
 def searcher(list):
     alist = [] #alist will be the list of the differences between the numbers on the list
     for i in range(len(list)-1):
@@ -20,8 +22,8 @@ def searcher(list):
 
 
     
-
+list = create()
 #print checker([])
-searcher([0,3,-1,4,7,3,8,11])
+searcher(list)
 
 # 

@@ -3,9 +3,7 @@ def finish(list,alist,cs):
     
     
     end = ( length - (length)%cs ) 
-    print end
-    print "This is the place of the last number in the last sequence"
-    print end
+    
     number = list[end]
     print number 
     for a in range(0,cs):
